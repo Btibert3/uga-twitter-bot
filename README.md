@@ -1,3 +1,8 @@
+# Questions:
+- Why didnt the pymongo instance fire on tweets?
+- Is there a more transparent way to write data with both `follow` and `track` set?
+- Key is catching errors
+
 # New Workflow
 
 1.  use tweepy error catching code

@@ -63,8 +63,21 @@ class CustomStreamListener(tweepy.StreamListener):
     def on_timeout(self):
         return True # Don't kill the stream
 
+
+
+## print the follows and trackings
+print "following accounts : "
+for f in follow:
+    print f
+    print "\n"
+
+print "following hashtags : "
+for t in track:
+    print t
+    print "\n"
+
+
 ## crawl the data
 print "Starting crawler .......\n"
-
 sapi = tweepy.streaming.Stream(auth, CustomStreamListener(api))
 sapi.filter(follow=follow,  track=track)

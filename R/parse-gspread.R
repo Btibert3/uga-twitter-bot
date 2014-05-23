@@ -12,13 +12,13 @@ library(mosaic)
 library(stringr)
 
 ## twitter api info for jonsmith_3
-consumer_key        = "y1332BV0buDBL0INYmxhFg"
-consumer_secret     = "mm71csN2vNwiJ6y4vBzLQP4VAqVwNztK8IicqCxg"
-access_token        = "434366755-pPYeUVVtp9hrd5Iluu8OlXTmG6h1AsneTe9RXsok"
-access_token_secret = "AFVsZezhTNcjN0ZdydWDp5PKTHJtLAbLFyaKkfQSxE0"
+consumer_key        = ""
+consumer_secret     = ""
+access_token        = ""
+access_token_secret = ""
 
 ## set the KEY for our Google Spreadsheet that acts like an easy dataset
-KEY = "1dtNZ7B4LqxDKU3YzNymN3dYet8ahwMndwupzdezBSLw"
+KEY = ""
 
 ###############################################################################
 ## Get the google spreadsheet with the hashtags to follow
